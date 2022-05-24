@@ -296,7 +296,7 @@ function countPara() {
         count++;
         console.log(para[i].textContent)
     }
-    console.log("The total paragraph is " + count);
+    // console.log("The total paragraph is " + count);
 }
 
 // countPara();
@@ -315,5 +315,5 @@ function randomString(len) {
     console.log(string)
 }
 
-// randomString(2);
+randomString(2);
 
